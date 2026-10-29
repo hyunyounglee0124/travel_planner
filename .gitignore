@@ -1,0 +1,14 @@
+# 비밀 키 파일 - 절대 커밋하지 않기
+.env
+.env.*
+!.env.example
+
+# 실행 결과 (제출 시 필요하면 results/ 만 따로 포함)
+results/*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
